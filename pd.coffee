@@ -9,6 +9,7 @@ window.onload = ->
 	altp = Array()
 	url = 'http://www.wookmark.com/api/json/popular?callback=?'
 	pd = 2
+	oo = 300
 	onlod = (p)->
 		if pd>1
 			pd = 0
@@ -55,7 +56,6 @@ window.onload = ->
 		hdex = getmin()
 		console.log($("#container").offset()) 
 		if altp[hdex]< hi - 50
-			
 			onlod(ipage++)
 
 
