@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+}
+#container{
+	
+	border:1px solid;
+	position:relative;
+	margin: 50px auto 0;
+}
+#container img
+{
+	position:absolute
+}
+#loading
+{
+	position: fixed;
+	bottom: 0;
+	left: 45%;
+	height:200px;
+	width:200px;
+	background:url('load.gif');
+	background-size:cover;
+
+}
